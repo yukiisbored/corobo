@@ -1,5 +1,6 @@
 install:
   - if ! pip3 -V ; then wget -O - https://bootstrap.pypa.io/get-pip.py | python3; fi
+  - apt-get install gcc python3-dev lib-ssldev
   - pip3 install -r requirements.txt
 
 docker:
