@@ -22,4 +22,3 @@ bears = LineLengthBear
 
 [all.links]
 bears = InvalidLinkBear
-
